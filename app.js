@@ -36,5 +36,5 @@ app.get('/', function(req, res){
   console.log("A new request");
 });
 
-app.listen(*);
+app.listen();
 console.log("Express server listening on port %d", app.address().port);
