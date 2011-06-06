@@ -36,5 +36,7 @@ app.get('/', function(req, res){
   console.log("A new request");
 });
 
-app.listen();
-console.log("Express server listening on port %d", app.address().port);
+var port = process.env.PORT || 3000;
+
+app.listen(port);
+console.log("Listening on " + port);
