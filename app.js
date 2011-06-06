@@ -36,6 +36,7 @@ app.get('/', function(req, res){
   console.log("A new request");
 });
 
+// This line is for heroku
 var port = process.env.PORT || 3000;
 
 app.listen(port);
